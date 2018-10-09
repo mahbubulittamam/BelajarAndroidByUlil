@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context="com.ulil0031.example.belajarandroidbyulil.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#22ca00"
+        android:singleLine="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/fragment"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:text="@string/fragment"
+            android:onClick="fragment"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="237dp" />
+
+        <Button
+            android:id="@+id/intent"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/activity"
+            android:onClick="intent"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="318dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
