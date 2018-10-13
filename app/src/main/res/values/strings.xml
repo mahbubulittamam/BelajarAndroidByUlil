@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Belajar Android By Ulil</string>
+    <string name="fragment">Go to fragment</string>
+    <string name="activity">Go to activity</string>
+    <string name="second_activity">Second Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_fragment">First Fragment</string>
+    <string name="lanjut">Next</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="splash_screen">Belajar Android By Ulil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="login">LOGIN</string>
+    <string name="welcome_ulil">Welcome Ulil</string>
+    <string name="user">User</string>
+    <string name="password">password</string>
+    <string name="yourname">yourname</string>
+    <string name="add_user">Add User</string>
+    <string name="list_user">List User</string>
+    <string name="nama">Nama</string>
+    <string name="nim">NIM</string>
+    <string name="kejuruan">Kejuruan</string>
+    <string name="alamat">Alamat</string>
+    <string name="insert">Insert</string>
+    <string name="nama2">Nama</string>
+    <string name="titik2">:</string>
+    <string name="nim2">Nim</string>
+</resources>
