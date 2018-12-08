@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BelajarAndroidByUlil-Fix.iml" filepath="$PROJECT_DIR$/BelajarAndroidByUlil-Fix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BelajarAndroidByUlil.iml" filepath="$PROJECT_DIR$/BelajarAndroidByUlil.iml" />
+      <module fileurl="file://C:\Users\USER\AndroidStudioProjects\New folder (3)\xsaf\BelajarAndroidByUlil\BelajarAndroidByUlil-Fix.iml" filepath="C:\Users\USER\AndroidStudioProjects\New folder (3)\xsaf\BelajarAndroidByUlil\BelajarAndroidByUlil-Fix.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

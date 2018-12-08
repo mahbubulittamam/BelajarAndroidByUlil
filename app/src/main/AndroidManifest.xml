@@ -26,7 +26,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".activity.AddUserActivity" />
-        <activity android:name=".activity.DetailActivity"></activity>
+        <activity android:name=".activity.DetailActivity" />
+        <activity android:name=".ListViewPlace"/>
+        <activity android:name=".BilanganGenapGanjil"/>
     </application>
 
 </manifest>

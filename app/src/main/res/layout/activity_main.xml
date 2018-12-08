@@ -70,6 +70,29 @@
             tools:layout_editor_absoluteY="318dp"
              />
 
+        <Button
+            android:id="@+id/genapganjil"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:text="Bilangan Genap Ganjil"
+            android:onClick="bilangangenapganjil"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="318dp" />
+
+
+        <Button
+            android:id="@+id/listview"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:text="ListView"
+            android:onClick="Listview"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="318dp"
+            tools:ignore="OnClick" />
+
+
 
     </LinearLayout>
 

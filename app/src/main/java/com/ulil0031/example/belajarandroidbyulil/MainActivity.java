@@ -28,16 +28,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
         session = new PreferencesHelper(getApplicationContext());
 
         TextView lblName = (TextView) findViewById(R.id.lblName);
 
 
-
-
-
-        if(session.checkLogin())
+        if (session.checkLogin())
             finish();
 
 
@@ -47,21 +43,20 @@ public class MainActivity extends AppCompatActivity {
         String name = user.get(PreferencesHelper.KEY_NAME);
 
 
-
-
-        lblName.setText(Html.fromHtml("Welocome : <b>" + name + "</b>"));
+        lblName.setText(Html.fromHtml("Welcome : <b>" + name + "</b>"));
 
 
     }
 
 
-    public void intent (View view) {
-        Intent intent =new Intent(MainActivity.this,SecondActivity.class);
+    public void intent(View view) {
+        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
         startActivity(intent);
 
     }
-    public void fragment (View view) {
-        Intent intent =new Intent(MainActivity.this,FragmentWithActivity.class);
+
+    public void fragment(View view) {
+        Intent intent = new Intent(MainActivity.this, FragmentWithActivity.class);
         startActivity(intent);
 
     }
@@ -77,4 +72,15 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, DetailActivity.class);
         startActivity(intent);
     }
+
+    public void bilangangenapganjil(View view) {
+        Intent intent = new Intent(MainActivity.this, BilanganGenapGanjil.class);
+        startActivity(intent);
+    }
+
+    public void Listview (View view) {
+        Intent intent = new Intent(MainActivity.this, ListViewPlace.class);
+        startActivity(intent);
+    }
+
 }
